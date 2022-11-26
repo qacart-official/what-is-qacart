@@ -1,6 +1,6 @@
 {
    "name": "qacart",
-   "version": "1.2.1",
+   "version": "1.2.2",
    "description": "Innovative Software Test Courses and Trainings",
    "bin": {
       "qacart": "index.js"
