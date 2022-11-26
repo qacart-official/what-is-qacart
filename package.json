@@ -6,7 +6,7 @@
       "qacart": "index.js"
    },
    "dependencies": {
-      "cli-welcome": "^2.2.2"
+      "chalk": "^4.1.2"
    },
    "keywords": [
       "qacart",
