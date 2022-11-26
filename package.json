@@ -12,5 +12,13 @@
       "qacart",
       "testing",
       "courses"
-   ]
+   ],
+   "license": "MIT",
+   "main": "index.js",
+   "repository": "qacart-official/what-is-qacart",
+   "author": {
+      "name": "QAcart",
+      "email": "hatem.hatamleh@qacart.com",
+      "url": "https://qacart.com"
+   }
 }
