@@ -1,14 +1,24 @@
 #!/usr/bin/env node
+const packageJson = require("./package.json");
+const welcome = require("cli-welcome");
 
-const clearConsole = require("clear-any-console");
+// console.log(`
+// NAME: ${packageJson.name}
+// VERSION: ${packageJson.version}
+// DESCRIPTION: ${packageJson.description}
+// `);
 
-// Clear console
-clearConsole();
+welcome({
+   title: `QAcart`,
+   description: packageJson.description,
+   version: packageJson.version,
+   bgColor: `#FADC00`,
+   color: `#000000`,
+   bold: true,
+   clear: true,
+});
 
 console.log(`
-QAcart
-Innovative Software Test Trainings
-Founder - Hatem Hatamleh
 
 Top Projects:
 - Selenium: https://qacart.com/course/complete-selenium-framework-for-todo-application
