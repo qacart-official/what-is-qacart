@@ -1,0 +1,7 @@
+{
+   "name": "qacart",
+   "version": "1.0.0",
+   "bin": {
+      "qacart": "index.js"
+   }
+}
