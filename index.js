@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+
+const clearConsole = require("clear-any-console");
+
+// Clear console
+clearConsole();
+
 console.log(`
 QAcart
 Innovative Software Test Trainings
