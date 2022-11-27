@@ -9,7 +9,7 @@ ${chalk.bold.bgYellow(`   QAcart   `)} ${packageJson.version}
 ${chalk.italic(
    `Software testing is easier in Arabic ... Software testing is easier with QAcart`,
 )}
- 
+
 ${chalk.bgBlue(" Top Projects ")}
 
 - Selenium: ${chalk.dim(
